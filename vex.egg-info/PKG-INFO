@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: vex
+Version: 1.0.1
+Summary: VEX AIM WebSocket Python Client
+Home-page: https://github.com/VEX-Robotics/AIM_Python_API
+Author: Charlie Didear,James Pearman, Levi Pope, Raj Balasubramanian
+Author-email: charlie_didear@innovationfirst.com, james_pearman@innovationfirst.com, levi_pope@innovationfirst.com, raj@vex.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: websocket-client
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

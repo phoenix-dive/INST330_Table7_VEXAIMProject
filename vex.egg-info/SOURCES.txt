@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+vex.egg-info/PKG-INFO
+vex.egg-info/SOURCES.txt
+vex.egg-info/dependency_links.txt
+vex.egg-info/requires.txt
+vex.egg-info/top_level.txt
