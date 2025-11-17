@@ -1,6 +1,10 @@
 # Import Module
 from tkinter import *
+from vex import *
+from vex.vex_globals import *
 
+# Robot initialization for AIM platform
+robot=Robot()
 # create root window
 root = Tk()
 
@@ -23,11 +27,11 @@ txt.grid(column =1, row =0)
 def clicked():
 
     res = "You wrote" + txt.get()
-    lbl.configure(text = res)
+    robot.turn(LEFT)
 
 def clicked_two():
     res="among us?"
-    lbl.configure(text = res)
+    robot.move_at(0)
 # button widget with red color text inside
 btn = Button(root, text = "Click me" ,
              fg = "red", command=clicked_two)
@@ -37,3 +41,4 @@ btn.grid(column=3, row=1)
 # all widgets will be here
 # Execute Tkinter
 root.mainloop()
+
