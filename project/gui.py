@@ -27,11 +27,11 @@ txt.grid(column =1, row =0)
 def clicked():
     robot.turn(LEFT)
 
+
 def up():
     robot_speed += 10
     robot.move_at(0, robot_speed)
-
-    
+  
 def slow_down():
     robot_speed -= 10
     robot.move_at(0, robot_speed)
