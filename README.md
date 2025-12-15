@@ -1,3 +1,12 @@
+# INST330 Project
+
+For Group 7's INST330 Project, we elected to recreate a Packet Tracer model using VEX AIM robots. The link to the VEXAIM code can be found in the Miro Board, but the code can also be run with Python. 
+
+Python can be downloaded from [python.org](https://www.python.org/downloads/), and it requires at least Python 3.8 to run.
+Follow the instructions [here](https://api.vex.com/aim/home/websocket/websocket_library_setup/setting_up.html) to set up the virtual environment, using this project's root folder as the root directory.
+
+To run the project in console, type in the console `python3 project/console_test.py`.
+
 # VEX AIM Websocket Python Client
 
  VEX AIM Websocket Python Client is a Python library designed to interact with the VEX AIM robot over WebSocket connections. It provides a high-level API to control the robot's movements, sensors, screen, sound, and other features from an external device.
