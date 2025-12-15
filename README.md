@@ -6,6 +6,7 @@ Python can be downloaded from [python.org](https://www.python.org/downloads/), a
 Follow the instructions [here](https://api.vex.com/aim/home/websocket/websocket_library_setup/setting_up.html) to set up the virtual environment, using this project's root folder as the root directory.
 
 To run the project in console, type in the console `python3 project/console_test.py`.
+Do note that this is for the model with two barrels. 
 
 # VEX AIM Websocket Python Client
 
