@@ -14,12 +14,11 @@ root.title("Packet Tracer Prototype")
 root.geometry('800x600')
 
 # adding a label to the root window
-lbl = Button(root, text = "Searcb", activebackground="black")
+lbl = Button(root, text = "Search", activebackground="black")
 lbl.grid(column = 1, row = 0)
 
 # adding Entry Field
 txt = Entry(root, width=50)
 txt.grid(column =0, row =0)
-
 root.mainloop()
 
